@@ -1,0 +1,199 @@
+
+/*nav-bar*/
+
+.topbar {
+    height: 4.375rem;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+.shadow {
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+}
+.bg-white {
+    background-color: #2F2F83;
+}
+.bg-footer{
+    background-color: #d1d3e2;
+}
+
+.navbar-expand {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+.navbar-expand .navbar-nav {
+    flex-direction: row;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+ ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.topbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #d1d3e2;
+}
+.topbar .nav-item .nav-link {
+    height: 4.375rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.75rem;
+}
+.sidebar .nav-item .nav-link, .topbar .nav-item .nav-link {
+    position: relative;
+}
+
+
+.text-white {
+    color: #fff;
+}
+.sidebar .nav-item .nav-link .img-profile, .topbar .nav-item .nav-link .img-profile {
+    height: 2rem;
+    width: 2rem;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+bg-dark {
+    background-color: #f1f1f1;
+}
+
+.text-gray-600 {
+    color: #95a8e8;
+}
+.mr-2, .mx-2 {
+    margin-right: 0.5rem!important;
+}
+
+.small {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+/*fin de nav-bar*/
+
+
+
+
+.table {
+   
+    margin-bottom: 1rem;
+    color: #858796;
+    border-collapse: collapse;
+    align-content: space-around;
+    border-spacing: 2px
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    width: 100%;
+}
+
+.table thead{
+    box-sizing: border-box;
+   
+
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #e3e6f0;
+}
+.table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #e3e6f0;
+}
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #e3e6f0;
+    color: black;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+col-lg-6{
+    position: relative;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+/* empieza mi last product*/
+
+.Tabla-lastP{
+    margin-left: 30px;
+    vertical-align: middle;
+    
+}
+
+.card-last-product{
+color:#858796;
+text-align: center;
+
+flex-wrap: wrap;
+width: 25rem; 
+margin: 1rem; 
+background: #eee; 
+border-radius: 0.5rem; 
+padding: 0.5rem
+}
+
+.card-last-product h2{
+    text-align: center;
+}
+
+.div-brand{
+    display: flex;
+    width: 30%;
+
+}
+
+.div-lastProduct{
+display: flex;
+
+
+
+}
+
+.brand-lastproduct{
+    display: flex;
+}
